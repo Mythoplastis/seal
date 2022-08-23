@@ -15,8 +15,6 @@ What surprised me the most was that none of the things I had done to that point 
 
 The more I dug into the works on planning and design, the stronger this pattern became. You would also think if designers knew about the tens of thousands of publications on possibilities and the ‘other ways’ in planning, they would not think of planners as boring … well, no! .. The more I tried to present the cool sides of planning to designers, the bigger the ‘boring planner’ label became, and the more I was pushed into doing things in the so-called ‘designerly way’ in that lab, the more I found myself, to my own surprise, defending planning.
 
-## Sub-Title
-
 It was as if there could not be any dialogue between the two fields on a deeper level; how we approach problems, how we think about the future, or what we add to each other on the higher level of matters. It seemed that one has to either willingly deny goodness in one field and take refuge in the other. Or yield to the classic ‘transactional’ interdisciplinary work; you need tools, I need theory; you need a method, I need a use-case; you give me something, I give you something back. For an observer, it would be too easy, yet acceptable, to blame this all on academia’s politics, power relations, individual personalities, or misunderstanding. We all have observed too many conflicts in our lives though to know that the peaceful transactions and finding the comfort zone in one familiar side are typical symptoms of a deep-rooted conflict that needs only a little trigger to unfold.
 
 But what could possibly be the function of the ‘boring planner’ label in such conflict? There is a part in James Baldwin’s unfinished manuscript, ‘I am Not Your Negro’, where he writes:
