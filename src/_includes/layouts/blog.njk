@@ -1,0 +1,38 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <!-- Main Start -->
+    <main class="main-left">
+        <div class="single-blog">
+            <div class="container">
+                <div class="blog-feature-img">
+                    <img src="{{image}}" title="" alt="">
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <article class="article">
+                            <div class="article-title">
+                                <h6><a href="#">{{category}}</a></h6>
+                                <h2>{{title}}</h2>
+                                <div class="media">
+                                    <div class="avatar">
+                                        <img src="static/img/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <label>{{writer}}</label>
+                                        <span>{{published}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-content">
+                                {{ content | safe }}
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+{% endblock content %}

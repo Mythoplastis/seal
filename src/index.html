@@ -1,0 +1,83 @@
+---
+layout: "base.njk"
+title: "Seal on the beach"
+---
+    <!-- Main Start -->
+    <main class="main-left">
+        <!-- Home -->
+        <section id="home" class="home-banner" style="background-image: url(/static/img/background.png);">
+            <div class="hb-top-fixed d-flex">
+            </div>
+            <div class="container">
+                <div class="row full-screen align-items-center">
+                    <div class="col-lg-7">
+                        <div class="type-box">
+                            <!-- <h6>Hello, I am</h6> -->
+                            <h1 class="font-alt" style="font-size: 4.5em;">Seal on the Beach</h1>
+                            <p class="lead"></p>
+                            <p class="desc"><span style="font-style:italic;">MONACHOPSIS</span>: n. the subtle but persistent feeling of being out of place, as maladapted to your surroundings as a <span style="font-weight: bold;"> seal on a beach </span> —lumbering, clumsy, easily distracted, huddled in the company of other misfits, unable to recognize the ambient roar of your intended habitat, in which you’d be fluidly, brilliantly, effortlessly at home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hb-me"></div>
+        </section>
+        <!-- End Home -->
+        <section id="random" class="section" style="background-image: url(/static/img/background.png);">
+            <div class="container">
+                <div class="title">
+                    <h3>Random Notes</h3>
+                </div>
+                <div class="row">
+                    {% for random in collections.randoms %}
+                    <div class="col-md-6 m-15px-tb">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <a href="randoms/{{random.data.name}}">
+                                    <img src="/static/img/1000x650.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <div class="meta">{{random.data.published}} - BLOG</div>
+                                <h6><a href="randoms/{{random.data.name}}">{{ random.data.title }}</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!-- <div class="col-12 read-more-blog text-center">
+                        <a class="px-btn px-btn-white" href="blog.html">More Blogs</a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Blog -->
+        <section id="planning" class="section" style="background-image: url(/static/img/background.png);">
+            <div class="container">
+                <div class="title">
+                    <h3>Redicvoering Planning</h3>
+                </div>
+                <div class="row">
+                    {% for rediscovering in collections.rediscoverings %}
+                    <div class="col-md-6 m-15px-tb">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <a href="rediscoverings/{{rediscovering.data.name}}">
+                                    <img src="{{rediscovering.data.image}}" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <div class="meta">{{rediscovering.data.published}} - BLOG</div>
+                                <h6><a href="rediscoverings/{{rediscovering.data.name}}">{{ rediscovering.data.title }}</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!-- <div class="col-12 read-more-blog text-center">
+                        <a class="px-btn px-btn-white" href="blog.html">More Blogs</a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- End Blog -->
+    </main>
+    <!-- End Main -->
