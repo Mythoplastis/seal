@@ -4,7 +4,7 @@ name: "hybrid"
 tags: "randoms"
 category: "Random Notes"
 title: "Hybrid Meetings are Designed by Digital Natives & Yet They Suck"
-published: "23 Aug 2022"
+published: "30 Aug 2022"
 writer: ""
 image: "/static/img/blogImage/3.jpg"
 ---
