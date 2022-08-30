@@ -5,7 +5,7 @@ tags: "randoms"
 category: "Random Notes"
 title: "Hybrid Meetings are Designed by Digital Natives & Yet They Fail to Impress"
 published: "30 Aug 2022"
-description: "on why we keep getting digital media wrong!"
+description: "Why we keep getting digital media wrong!"
 writer: ""
 image: "/static/img/blogImage/3.jpg"
 ---
