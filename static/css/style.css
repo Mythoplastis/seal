@@ -605,10 +605,11 @@ mark {
   margin: 0;
 }
 .article .article-content blockquote p {
-  font-size: 20px;
-  font-weight: 500;
-  color: #ff9301;
+  font-size: 15px;
+  font-weight: 200;
+  color: #0b0b13;
   margin: 0;
+  padding-left: 5vw;
 }
 .article .article-content blockquote .blockquote-footer {
   color: #fff;
