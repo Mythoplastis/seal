@@ -51,6 +51,12 @@ img {
   outline: none !important;
 }
 
+.sharethis-inline-share-buttons {
+  align-items: left;
+  display: flex;
+  justify-content: left;
+}
+
 a {
   color: #ff9301;
 }

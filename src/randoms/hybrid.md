@@ -5,8 +5,9 @@ tags: "randoms"
 category: "Random Notes"
 title: "Hybrid Meetings are Designed by Digital Natives & Yet They Suck"
 published: "30 Aug 2022"
+description: "on why we keep getting digital media wrong!"
 writer: ""
-image: "/static/img/blogImage/3.jpg"
+image: "static/img/blogImage/3.jpg"
 ---
 
 Born out of pandemic necessity, hybrid (partly real-life and partly virtual) events are the new addition to the list of 'things we are not quite sure are fit for purpose, but we do them anyway, just because.' Like any other entry in that list, it comes with an elaborated backstory, justifying its existence: "the hybrid nature of the events ensures accessibility of the content to a wider audience and makes events more inclusive. They are scalable and cost-effective and provide a new range of interactive engagement opportunities".
